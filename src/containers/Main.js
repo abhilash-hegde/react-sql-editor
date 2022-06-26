@@ -1,9 +1,13 @@
 import useJson from "../hooks/useJson";
 import DataTable from "../components/Table";
-import { Card, Button } from "antd";
+import Card from "antd/lib/card";
+import Button from "antd/lib/button";
 import { CSVLink } from "react-csv";
 import { useState, useEffect } from "react";
-import { FileExcelOutlined } from "@ant-design/icons";
+import FileExcelOutlined from "@ant-design/icons/FileExcelOutlined";
+
+import "antd/lib/card/style/css";
+import "antd/lib/button/style/css";
 
 const initTableData = {
   datasource: [],
@@ -56,7 +60,7 @@ export default function Main({ table }) {
     <Card
       title={table}
       loading={loading}
-      className="main-table-view"
+      className='main-table-view'
       extra={
         tableData.datasource.length ? (
           <CSVLink data={tableData.datasource} headers={tableData.columns}>

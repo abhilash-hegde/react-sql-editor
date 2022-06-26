@@ -1,5 +1,10 @@
-import { Layout, Menu } from "antd";
+import Menu from "antd/lib/menu";
+import Layout from "antd/lib/layout";
 import items from "../constants/items";
+
+import "antd/lib/menu/style/css";
+import "antd/lib/layout/style/css";
+
 const { Sider } = Layout;
 
 export default function Sidebar({ selected, setSelected }) {

@@ -1,7 +1,11 @@
 import React, { useState, useRef } from "react";
-import { Button, Input, Space } from "antd";
+import Input from "antd/lib/input";
+import Button from "antd/lib/button";
+import Space from "antd/lib/space";
 import { SearchOutlined } from "@ant-design/icons";
 import Highlighter from "react-highlight-words";
+
+import "antd/lib/space/style/css";
 
 const TableSearch = (dataIndex) => {
   const [searchedText, setSearchedText] = useState("");

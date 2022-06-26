@@ -10,7 +10,7 @@
 4. Get started with the development mode by running `npm start`
 5. You can access the project at `http://localhost:3000`
 
-#### Available SQL queries
+## Available SQL queries
 
 1. `select * from categories;`
 2. `select * from customers;`
@@ -19,3 +19,11 @@
 5. `select * from products;`
 6. `select * from shippers;`
 7. `select * from suppliers;`
+
+
+## Third-Party Libraries
+
+-   `antd`: Provides components, layouts and table
+-   `react-ace`: SQL formatted input
+-   `react-csv`: Download table data in the form of CSV
+

@@ -1,7 +1,9 @@
 import { useState } from "react";
 import AceEditor from "react-ace";
-import { Button, Card } from "antd";
-import { ConsoleSqlOutlined } from "@ant-design/icons";
+import Card from "antd/lib/card";
+import Button from "antd/lib/button";
+import ConsoleSqlOutlined from "@ant-design/icons/ConsoleSqlOutlined";
+
 import "ace-builds/src-min-noconflict/ext-language_tools";
 import "ace-builds/src-min-noconflict/mode-mysql";
 import "ace-builds/src-min-noconflict/theme-tomorrow";

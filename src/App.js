@@ -1,11 +1,14 @@
-import "./styles.css";
 import { useState } from "react";
-import { Layout, Result } from "antd";
+import Layout from "antd/lib/layout";
+import Result from "antd/lib/result";
 import Sidebar from "./containers/Sidebar";
 import SqlEditor from "./components/SqlEditer";
 import Main from "./containers/Main";
 import useDbTable from "./hooks/useDbTable";
-import "antd/dist/antd.css";
+
+import "antd/lib/layout/style/css";
+import "antd/lib/result/style/css";
+import "./styles.css";
 
 const { Content } = Layout;
 
@@ -21,10 +24,10 @@ export default function App() {
       <Layout
         style={{
           height: "100vh",
-          overflowY: 'auto',
+          overflowY: "auto",
         }}
       >
-        <Content style={{ margin: "24px 16px 0", overflow: "initial", }}>
+        <Content style={{ margin: "24px 16px 0", overflow: "initial" }}>
           {selected === "query" && (
             <SqlEditor currQuery={query} excecuteQuery={setQuery} />
           )}

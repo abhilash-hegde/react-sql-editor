@@ -24,6 +24,7 @@ export default function App() {
       <Layout
         style={{
           height: "100vh",
+          marginLeft: '200px',
           overflowY: "auto",
         }}
       >

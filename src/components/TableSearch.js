@@ -88,7 +88,7 @@ const TableSearch = (dataIndex) => {
           const searchArray = serachedString.split(/\s+/);
           return (
             <Highlighter
-              highlightStyle={{ backgroundColor: "rgb(#1890ff, 0.3)", padding: 0 }}
+              highlightStyle={{ backgroundColor: "#c4ddf5", padding: 0 }}
               searchWords={searchArray}
               autoEscape
               textToHighlight={text.toString()}

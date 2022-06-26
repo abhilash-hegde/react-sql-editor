@@ -33,7 +33,7 @@ export default function Main({ table }) {
           key: el,
           ellipsis,
           sortDirections: ["descend", "ascend"],
-          sorter: (a, b) => a.date - b.date,
+          sorter: (a, b) => a[el] - b[el],
         });
       });
 

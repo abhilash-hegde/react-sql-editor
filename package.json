@@ -1,11 +1,14 @@
 {
-  "name": "react",
+  "name": "sql-editor",
   "version": "1.0.0",
-  "description": "React example starter project",
+  "description": "React SQL Editor",
   "keywords": [
     "react",
     "starter"
   ],
+  "engines": {
+    "node": "16.x"
+  },
   "main": "src/index.js",
   "dependencies": {
     "antd": "4.21.3",

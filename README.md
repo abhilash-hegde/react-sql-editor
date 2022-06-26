@@ -10,7 +10,7 @@
 4. Get started with the development mode by running `npm start`
 5. You can access the project at `http://localhost:3000`
 
-## Available SQL queries
+#### Available SQL queries
 
 1. `select * from categories;`
 2. `select * from customers;`
@@ -26,4 +26,11 @@
 -   `antd`: Provides components, layouts and table
 -   `react-ace`: SQL formatted input
 -   `react-csv`: Download table data in the form of CSV
+
+## Page Performance
+-   `FCP (First Contentful Paint`: 0.8 s
+-   `SI (Speed Index)`: 2.1 s
+-   `LCP (Largest Contentful Paint)`: 1.7 s
+-   `TTI (Time to Interactive)`: 1.7 s
+-   `TBT (Total Blocking Time)`: 40 ms
 
